@@ -1,7 +1,7 @@
 export const getGlobalData = () => {
   const name = process.env.BLOG_NAME
     ? decodeURI(process.env.BLOG_NAME)
-    : 'Modern Ways of Social Media Marketing - MediaGeneous';
+    : 'MediaGeneous';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
     : 'Modern Ways of Social Media Marketing - MediaGeneous';
